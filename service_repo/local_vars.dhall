@@ -1,5 +1,1 @@
-let EnvVars = ./env_vars.dhall
-
-in EnvVars :: {
-    BBB = "BBB",
-}
+let EnvVars = ./env_vars.dhall in EnvVars::{ BBB = "BBB" }
